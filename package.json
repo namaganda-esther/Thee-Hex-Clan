@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12",
+    "pug": "^3.0.2"
+  },
+  "name": "hexclanbackend",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabahitaVictoria/HexClanBackend.git"
+  },
+  "author": "Hex Clan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KabahitaVictoria/HexClanBackend/issues"
+  },
+  "homepage": "https://github.com/KabahitaVictoria/HexClanBackend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
