@@ -1,31 +1,47 @@
-.navbar{
-    background-color:orange;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
 }
 
-.navbar-nav{
-    align-content: left;
-    align-items: left;
+li a ,h3,h6{
+    text-align: center;
+    justify-content: center;
+
 }
 
-.nav-link{
-    margin-right: 1em !important;
+.menu-right{
+    float: right;
 }
 
-.navbar-brand{
-    margin-left: 1%;
+.menu-left{
+    float: left;
+}
+  
+li a:hover:not(.active) {
+    background-color:black;
 }
 
-.navbar-brand img{
-    width: 20%;
-    height: 20%;
+.menu{
+    background-color: orange;
 }
 
-.nav-link h1{
-    text-align: left;
-    color: black;
-}
-
-.container{
+.body{
     /* background-image: url(./Images/backgroundimage.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +51,7 @@
     background-position: center;
 }
 
-.container img{
+.body img{
     position: absolute;
     top: 0;
     left: 0;
@@ -58,14 +74,14 @@
 
 .Container-login{
     /* float: center; */
-    text-align:justify;
+    text-align:left;
     padding-top: 1%;
     padding-bottom: 2%;
     position: absolute;
     top: 15%;
     left: 35%;
     width: 30%;
-    height: 85%;
+    height: 80%;
     background-color: black;
     opacity: 0.8;
     color: white;
@@ -73,13 +89,14 @@
     box-sizing: border-box;
 }
 
-#container-sign{
+#container-sign h3{
     color: white;
+    text-align: left;
 }
 
 .container-form{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 8%;
 }
 
 .container-form img{
@@ -98,25 +115,23 @@
 }
 
 input[type=text], input[type=password] {
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-    padding: 12px 20px;
+    width: 100%;
+    padding: 12px 21px;
+    margin: 8px 0;
+    display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 4%;
 }
   
   /* Set a style for all buttons */
 button {
     background-color:red;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    /* padding: 0px 20px; */
+    /* margin: 8px 0; */
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 100px;
 }
 
 .psw{
@@ -124,16 +139,16 @@ button {
 }
 
 input[type=text]:hover,[type=password]:hover{
-    box-shadow: inset 0 0 0 30px #fa901798;
+    box-shadow: inset 0 0 0 30px #fa9017;
     transition: ease;
 }
 button{
-    display: block;
-    margin: 0 auto;
-    width: 20%;
+    width: 80%;
     height: 50px;
     border-radius: 8px;
     padding: 14px 20px;
+    margin-top: 4px;
+    margin-left: 15px;
     background: orange;
     font-size: 18px;
 	border: none;
@@ -143,7 +158,7 @@ button:hover {
 	cursor: pointer;
     color: rgb(255, 255, 255);
     transition: ease-in-out;
-    box-shadow: inset 0 0 50px rgba(252, 137, 5, 0.644);
+    box-shadow: inset 0 0 50px rgb(252, 136, 5);
     transform: 0.5s ease;
 }
 
@@ -176,27 +191,7 @@ textarea {
     outline: none;
     border: none;
 }
-
-img{
-    width: 500px;
-    height: 270px;
-    display:block;
-    margin: 0 auto;
-    margin-bottom: 5px;
-}
-
-h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.788);
-}
-
-p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
   
-/* textarea:focus, input:focus {
-    /* border-color: transparent !important; 
-} */
-/*textarea:focus, input:focus {
+textarea:focus, input:focus {
     /* border-color: transparent !important; */
+}
