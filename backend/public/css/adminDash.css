@@ -1,14 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    color: white;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+li a h1,h3,h6{
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+}
+  
+li a:hover:not(.active) {
+    background-color:black;
+}
+
 .body {
     background-repeat: no-repeat;
-    background: url(../Images/codequeen.jpg);
-    /* background-size: cover; */
+    /* background: url(../Images/backgroundimage.jpg); */
+    background-size: cover;
     margin: 0 0 0 0;
+    background-color: gray;
 }
 
 .dark {
     margin: 0;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.897);
+    /* background: rgba(0, 0, 0, 0.897); */
     min-height: 1080px;
     /* background-size: cover; */
 }
@@ -91,48 +125,6 @@ label, .successMessage{
     padding-top: 5px;
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 166, 0, 0.521);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.sidenav a{
-    padding: 8px;
-    padding-bottom: 50px;
-    text-decoration: none;
-    font-size: 25px;
-    color: rgba(15, 15, 15, 0.788);
-    font-weight: bolder;
-    display: block;
-    transition: 0.3s;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.sidenav a:hover{
-    color: rgba(48, 47, 47, 0.705);
-}
-
-.sidenav .closebtn {
-    position: relative;
-    top: 0;
-    left: 120px;
-    font-size: 20px;
-    margin-left: 30px;
-}
-
-@media screen and (max-height: 450px){
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
 
 #dash {
     display: flex;

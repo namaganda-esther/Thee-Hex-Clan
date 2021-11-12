@@ -24,14 +24,6 @@ li a ,h3,h6{
     justify-content: center;
 
 }
-
-.menu-right{
-    float: right;
-}
-
-.menu-left{
-    float: left;
-}
   
 li a:hover:not(.active) {
     background-color:black;

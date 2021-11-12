@@ -1,16 +1,18 @@
 body{
-    background: rgba(255, 189, 66, 0.6);
+    /* background: rgba(255, 189, 66, 0.6); */
+    background-color: white;
 }
+
 .page{
     width: 900px;
     border-radius: 20px;
     height: 600px;
     margin: 0 auto;
-    background-image: url(../img/Logo.jpg);
+    /* background-image: url(../Images/backgroundimage.jpg); */
     background-size: 900px 600px;
     background-repeat: no-repeat;
     box-shadow: 0px 4px 8px 0px black;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .head{
     width: 850px;
@@ -32,6 +34,7 @@ h3{
 }
 .container{
     padding-top: 3px;
+    /* background-image: url(../Images/backgroundimage.jpg); */
 }
 .banner{
     width: 850px;
@@ -40,7 +43,7 @@ h3{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin-top: 1px;
+    /* margin-top: 1px; */
     border-bottom:none ;
 }
 h2{
@@ -98,6 +101,7 @@ a:hover{
     justify-content: space-between;
     padding-top: 20px;
 }
+
 .about p{
     font-size: 20px;
     font-family: cursive;

@@ -1,4 +1,5 @@
 
+
 .body{
     /* background-image: url(./Images/backgroundimage.jpg); */
     background-size: cover;
@@ -7,6 +8,7 @@
     /* width: 800px; */
     position: relative;
     background-position: center;
+    flex-grow: 2;
 }
 
 .body img{
@@ -17,6 +19,7 @@
     height: 100%;
     opacity: 0.5;
     object-fit: cover;
+    flex-grow: 2;
 }
 
 .overlay{
@@ -72,6 +75,9 @@ input[type=submit]:hover{
     color: white;
 }
 
+.container{
+}
+
 .Container-login{
     /* float: center; */
     text-align:left;
@@ -82,7 +88,7 @@ input[type=submit]:hover{
     left: 15%;
     right: 25%;
     width: 70%;
-    height: 100%;
+    height: 110%;
     background-color: black;
     opacity: 0.8;
     color: white;
@@ -111,12 +117,18 @@ h3{
     font-weight: bold;
     color:orange;
     font-size: 36px;
-    margin-bottom: 33px;
-    padding-top: 10px;
+    /* margin-bottom: 33px; */
+    /* padding-top: 10px; */
     padding-left: 250px;
 }
       
 input{
     width: 600px;
 }
+
+#body{
+    flex-grow: 2;
+}
+
+
      
